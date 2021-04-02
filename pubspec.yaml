@@ -23,15 +23,21 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-#  device_preview:
+  device_preview:
   cupertino_icons:
   rxdart:
-  firebase_auth:
-  cloud_firestore:
+  firebase_auth: ^0.14.0+5
+  cloud_firestore: ^0.12.9+4
   provider:
-  flutter_icons: ^1.1.0
-  google_maps_flutter: ^0.5.30
-  location: ^3.0.2
+  flutter_icons:
+#  google_maps_flutter:
+  location:
+  sensors: ^0.4.0+1
+
+
+
+
+
 
 
 

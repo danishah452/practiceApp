@@ -5,6 +5,11 @@
    "Login_page": "Loginseite",
    "Enter_email": "Email eingeben",
    "Enter_Password": "Passwort eingeben",
-   "Submit": "einreichen"
-
+   "Submit": "einreichen",
+   "home_appbar": "Zuhause",
+   "home_title": "Parkinson-Patienten",
+   "sensor_btn": "Symptome aufzeichnen",
+   "record_btn": "Stimmaufnahme\n",
+   "review_btn": "Rezensionsfragen",
+   "symptoms": "Symptome"
  }

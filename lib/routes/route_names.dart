@@ -4,5 +4,7 @@ const String signUpRoute = 'signUpRoute';
 const String settingRoute = 'settingRoute';
 const String WrapperRoute = 'wrapperRoute';
 const String RegisterRoute = 'registerRoute';
+// const String SensorRoute = '/';
+
 
 const String homeRoute = '/';

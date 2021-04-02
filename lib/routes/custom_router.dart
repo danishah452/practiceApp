@@ -1,12 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:practice/home.dart';
-import 'file:///C:/projects/practice/lib/signup/register.dart';
 import 'package:practice/authenticate/wrapper.dart';
 import 'package:practice/routes/route_names.dart';
-import 'package:practice/signin/login.dart';
+import 'package:practice/ui/drawer/sensor.dart';
+import 'package:practice/ui/registeration/signin/login.dart';
+import 'package:practice/ui/registeration/signup/register.dart';
 
-import '../Splash.dart';
+import '../ui/registeration/Splash.dart';
 
 class CustomRouter {
   static Route<dynamic> allRoutes(RouteSettings settings) {
@@ -21,6 +22,9 @@ class CustomRouter {
         return MaterialPageRoute(builder: (_) => home());
       case RegisterRoute:
         return MaterialPageRoute(builder: (_) => Register());
+      // case SensorRoute:
+      //   return MaterialPageRoute(builder: (_) => Sensor());
+
 
 
     }

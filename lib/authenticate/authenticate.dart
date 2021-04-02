@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'file:///C:/projects/practice/lib/signup/register.dart';
-import 'package:practice/signin/login.dart';
+import 'package:practice/ui/registeration/signin/login.dart';
+import 'package:practice/ui/registeration/signup/register.dart';
 
 class Authenticate extends StatefulWidget {
 

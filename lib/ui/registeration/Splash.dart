@@ -3,11 +3,10 @@ import 'package:practice/images.dart';
 import 'package:practice/languages/localization/demo_localization.dart';
 import 'package:practice/main.dart';
 import 'package:practice/routes/route_names.dart';
-import 'package:practice/signin/login.dart';
 import 'package:practice/text_string.dart';
 
-import 'languages/language.dart';
-import 'languages/localization/localization_constants.dart';
+import '../../languages/language.dart';
+import '../../languages/localization/localization_constants.dart';
 
 class splash extends StatefulWidget {
   @override
@@ -44,7 +43,6 @@ class _splashState extends State<splash> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        drawer: Drawer(),
         appBar: AppBar(
           backgroundColor: Colors.black,
           title: Text(

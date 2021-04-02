@@ -6,6 +6,12 @@
   "Login_page":"صفحة تسجيل الدخول",
   "Enter_email": "أدخل البريد الإلكتروني",
   "Enter_Password": "أدخل كلمة المرور",
-  "Submit": "إرسال"
+  "Submit": "إرسال",
+  "home_appbar": "الصفحة الرئيسية",
+  "home_title": "مرضى باركنسون",
+  "sensor_btn": "سجل الأعراض",
+  "record_btn": "التسجيل الصوتي",
+  "review_btn": "سؤال المراجعة",
+  "symptoms": "أعراض"
 
 }

@@ -1,3 +1,4 @@
+import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:practice/authenticate/wrapper.dart';
@@ -8,20 +9,21 @@ import 'package:practice/routes/custom_router.dart';
 import 'package:practice/routes/route_names.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:practice/services/auth.dart';
+import 'package:practice/ui/drawer/sensor.dart';
 import 'package:provider/provider.dart';
 
 
-import 'Splash.dart';
+import 'ui/registeration/Splash.dart';
 
 
-void main() => runApp(MyApp());
+//void main() => runApp(MyApp());
 
-// void main() => runApp(
-//       DevicePreview(
-//         enabled: !kReleaseMode,
-//         builder: (context) => MyApp(),
-//       ),
-//     );
+void main() => runApp(
+      DevicePreview(
+        enabled: !kReleaseMode,
+        builder: (context) => MyApp(),
+      ),
+    );
 
 class MyApp extends StatefulWidget {
   static void setLocale(BuildContext context, Locale locale) {
@@ -51,7 +53,7 @@ class _MyAppState extends State<MyApp> {
             return StreamProvider<User>.value(
                 value: AuthService().user,
                 child:MaterialApp(
-              locale: _locale,
+               locale: _locale,
               supportedLocales: [
                 Locale('ur', 'PK'),
                 Locale('en', 'US'),
@@ -75,12 +77,12 @@ class _MyAppState extends State<MyApp> {
                 return supportedLocale.first;
               },
 
-              // locales: DevicePreview.locale(context),
-              // builder: DevicePreview.appBuilder,
+               // locale: DevicePreview.locale(context),
+              builder: DevicePreview.appBuilder,
               debugShowCheckedModeBanner: false,
               onGenerateRoute: CustomRouter.allRoutes,
               initialRoute: splashRoute,
-                  // home: Wrapper(),
+
                 ), );
           },
         );

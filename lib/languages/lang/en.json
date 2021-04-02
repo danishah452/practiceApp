@@ -5,6 +5,11 @@
   "Login_page": "LoginPage",
   "Enter_email": "Enter Email",
   "Enter_Password": "Enter Password",
-  "Submit": "Submit"
-
+  "Submit": "Submit",
+  "home_appbar": "Home",
+  "home_title": "Parkinson Disease Patients",
+  "sensor_btn": "Record Symptoms",
+  "record_btn": "Voice Recording",
+  "review_btn": "Review Question",
+  "symptoms": "Symptoms"
 }
